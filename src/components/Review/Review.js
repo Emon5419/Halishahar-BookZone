@@ -7,7 +7,7 @@ const Review = () => {
    const [reviews] = useReviews();
 
    return (
-      <div className='review grid grid-cols-3 m-10'>
+      <div className='grid grid-cols-3 m-10'>
          {
             reviews.map(review =>
                <div className='review-page bg-gray-400 text-white text-center'>

@@ -1,15 +1,7 @@
 .review-page {
-    border: 2px solid black;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
-.review-page h1 {
-    margin: 10px;
-
-}
 
 @media screen and (max-wdith: 320px) {
     .review {
