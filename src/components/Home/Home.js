@@ -2,7 +2,8 @@ import './Home.css';
 import Reviews from '../Reviews/Reviews';
 import useReviews from '../../hooks/useReviews';
 import { Link } from 'react-router-dom';
-import sapiens from '../../images/sapiens.jpg';
+import sapiens from '../../images/1.jpg';
+import Header from '../Header/Header';
 
 
 const Home = () => {
@@ -10,7 +11,10 @@ const Home = () => {
 
 
    return (
+
       <div>
+         <Header></Header>
+
          <div className='home-contanier'>
             <div className="home-introduction">
 

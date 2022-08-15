@@ -1,4 +1,8 @@
+.name{
+    position: fixed;
+}
 .review-page {
+    margin: 20px;
     font-weight: 500;
 }
 
