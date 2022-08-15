@@ -39,7 +39,8 @@ const Home = () => {
 
 
          {/* Section-2 Start  */}
-         <h1 className='font-bold text-center mt-10 text-3xl my-5'> Customar Review ({reviews.length})</h1>
+         <h1 className='font-bold text-center mt-10 text-3xl my-5'>Total Reviews: {reviews.length}</h1>
+         <p className='text-center font-bold'></p>
          <div className='flex p-5 '>
             {
                reviews.slice(0, 3).map(review => <Reviews
