@@ -1,0 +1,31 @@
+.nav-container{
+   position: fixed;
+   width: 100%;
+   padding: 10px;
+   color: white;
+   border: 1px solid rgb(144, 144, 144);
+   background-color: rgb(85, 89, 221);
+}
+
+ nav a { 
+   font-weight: 100;
+   margin-bottom: 20px;
+   margin-left: 30px;
+   text-align: center;
+   text-decoration: none; 
+
+}
+
+nav a:hover {
+   color: rgb(47, 253, 1);
+}
+
+nav {
+   margin-left: 450px;
+}
+
+@media only screen and (max-width: 320px) {
+   nav {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}

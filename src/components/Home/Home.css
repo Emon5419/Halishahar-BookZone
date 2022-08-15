@@ -1,0 +1,57 @@
+.home-contanier {
+   display: flex;
+}
+
+.home-introduction {
+   margin-left: 100px;
+   margin-top: 200px;
+}
+
+.home-introduction h1 {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 30px;
+   font-weight: 600;
+   color: rgb(56, 60, 67);
+}
+
+.home-introduction span {
+   color: rgb(223, 18, 18);
+   font-size: 50px;
+}
+
+.home-img {
+   width: 300px;
+   height: 500px;
+   margin-top: 80px;
+   margin-left: 200px;
+}
+.home-introduction button{
+   color: white;
+}
+
+/* .home-introduction button {
+   padding: 15px;
+   background-color: tomato;
+   color: white;
+   border-radius: 5px;
+   margin-top: 20px;
+   font-weight: 600;
+} */
+
+.see-btn {
+   color: white;
+   width: 200px;
+   padding: 10px;
+   margin-top: 20px;
+   margin-left: 550px;
+   text-align: center;
+   border-radius: 20px;
+}
+
+@media only screen and (max-width: 320px) {
+   .home-contanier {
+      grid-template-columns: repeat(1, 1fr);
+   }
+
+
+}
